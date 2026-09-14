@@ -1,19 +1,19 @@
 class Klaat < Formula
   desc "Command-line tool for exporting Google Docs to Markdown codelabs"
   homepage "https://klaat.kartikarora.me"
-  version "2.0.0"
+  version "2.0.1"
 
   # Default URL (macOS ARM64) to satisfy Homebrew's static parsing requirement
-  url "https://distribute.kartikarora.me/bin/klaat/release/2.0.0/klaat-macos-arm64-2.0.0"
-  sha256 "7f59f32bb987f15556df8d31312bdfc626101e15d09433568f81e7421b5748dc"
+  url "https://distribute.kartikarora.me/bin/klaat/release/2.0.1/klaat-macos-arm64-2.0.1"
+  sha256 "96aac3e2977e52d20b4140a3e599d64a4f90e52ea715b261bf295f029b8a6f8e"
 
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://distribute.kartikarora.me/bin/klaat/release/2.0.0/klaat-linux-arm64-2.0.0"
-      sha256 "1ca28d1271d454486aa58e6e5056bfe8e085a99bcbbcdd7473ae5ccfb4055d18"
+      url "https://distribute.kartikarora.me/bin/klaat/release/2.0.1/klaat-linux-arm64-2.0.1"
+      sha256 "a3882faf91ad94efb3b7cb91d3c5ac1f41c9f1a8974853caff0f96878adb0077"
     elsif Hardware::CPU.intel?
-      url "https://distribute.kartikarora.me/bin/klaat/release/2.0.0/klaat-linux-x64-2.0.0"
-      sha256 "7033e17ed74f2193d2aa35c899d7f5e743a98fd60145ad85ac480cca56cbeae8"
+      url "https://distribute.kartikarora.me/bin/klaat/release/2.0.1/klaat-linux-x64-2.0.1"
+      sha256 "05bc84bddf3bcc127a2b8dd527055a1e89cefa394da681bfb01471f5e5501a1d"
     end
   end
 
