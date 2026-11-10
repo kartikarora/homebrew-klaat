@@ -3,6 +3,8 @@ class Klaat < Formula
   homepage "https://klaat.kartikarora.me"
   version "2.0.1"
 
+  deprecate! date: "2026-11-10", because: "has moved to the unified tap: brew install kartikarora/tap/klaat"
+
   # Default URL (macOS ARM64) to satisfy Homebrew's static parsing requirement
   url "https://distribute.kartikarora.me/bin/klaat/release/2.0.1/klaat-macos-arm64-2.0.1"
   sha256 "96aac3e2977e52d20b4140a3e599d64a4f90e52ea715b261bf295f029b8a6f8e"
